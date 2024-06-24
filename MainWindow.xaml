@@ -43,110 +43,55 @@
 
             <ContentControl Grid.Column="1" Margin="10" Name="contentControl"/>
         </Grid>
-        <Grid Grid.Column="1" HorizontalAlignment="Left" Height="363" Margin="10,27,0,0" VerticalAlignment="Top" Width="196" Background="#bbbbbb">
+        <Grid Grid.Column="1" HorizontalAlignment="Left" Height="146" Margin="10,27,0,0" VerticalAlignment="Top" Width="390" Background="#bbbbbb">
             <Grid.RowDefinitions>
                 <RowDefinition Height="260*"/>
                 <RowDefinition Height="36*"/>
                 <RowDefinition Height="67*"/>
             </Grid.RowDefinitions>
-            <TextBlock HorizontalAlignment="Center" Height="50" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Background="White" TextAlignment="Center"><Run Language="ru-ru" Text="Иванов Иван Иванович"/></TextBlock>
-            <TextBlock HorizontalAlignment="Center" Height="50" Margin="0,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Background="White" TextAlignment="Center" Grid.RowSpan="2"><Run Text="Иванов "/><Run Language="ru-ru" Text="Иван"/><Run Text=" Иванович"/><LineBreak/><Run/></TextBlock>
-            <TextBlock HorizontalAlignment="Center" Height="50" Margin="0,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Background="White" TextAlignment="Center"><Run Text="Иванов "/><Run Language="ru-ru" Text="Иван"/><Run Text=" Иванович"/><LineBreak/><Run/></TextBlock>
-            <TextBlock HorizontalAlignment="Center" Height="50" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Background="White" TextAlignment="Center" Margin="0,130,0,0"><Run Language="ru-ru" Text="Иванов"/><Run Text=" Иван Иванович"/><LineBreak/><Run/></TextBlock>
-            <TextBlock HorizontalAlignment="Center" Height="50" Margin="0,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Background="White" TextAlignment="Center"><Run Text="Иванов Иван "/><Run Language="ru-ru" Text="Иванович"/><LineBreak/><Run/></TextBlock>
+            <TextBlock HorizontalAlignment="Center" Height="34" TextWrapping="Wrap" VerticalAlignment="Top" Width="342" Foreground="#696969" TextAlignment="Center" Grid.RowSpan="2" Grid.Row="1"><Run Language="ru-ru" Text="Выдан: АКЦИОНЕРНОЕ ОБЩЕСТВО "/><Run Text="&quot;"/><Run Language="ru-ru" Text="СТРАХОВАЯ КОМПАНИЯ "/><Run Text="&quot;"/><Run Language="ru-ru" Text="СОГАЗ-МЕД"/><Run Text="&quot;"/></TextBlock>
         </Grid>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="22" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196"><Run Language="ru-ru" Text="Выбор специалиста - Офтальмолог"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="28,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" Foreground="#A9A9A9"><Run Language="ru-ru" Text="Ближайшая дата:"/><LineBreak/><Run Language="ru-ru" Text="Сегодня"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="122,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" Foreground="#A9A9A9"><Run Text="Москва, д. 11"/><Run Language="ru-ru" Text="2"/><Run Text="А"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="28,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" Foreground="#A9A9A9"><Run Language="ru-ru" Text="Ближайшая дата:"/><LineBreak/><Run Language="ru-ru" Text="Сегодня"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="122,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" Foreground="#A9A9A9"><Run Text="Москва, д. 11"/><Run Language="ru-ru" Text="3"/><Run Text="А"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="28,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" Foreground="#A9A9A9"><Run Language="ru-ru" Text="Ближайшая дата:"/><LineBreak/><Run Language="ru-ru" Text="Сегодня"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="122,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" Foreground="#A9A9A9"><Run Text="Москва, д. 11"/><Run Language="ru-ru" Text="4"/><Run Text="А"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="28,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" Foreground="#A9A9A9"><Run Language="ru-ru" Text="Ближайшая дата:"/><LineBreak/><Run Language="ru-ru" Text="Сегодня"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="122,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" Foreground="#A9A9A9"><Run Text="Москва, д. 11"/><Run Language="ru-ru" Text="5"/><Run Text="А"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="28,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" Foreground="#A9A9A9"><Run Language="ru-ru" Text="Ближайшая дата:"/><LineBreak/><Run Language="ru-ru" Text="Сегодня"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="122,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" Foreground="#A9A9A9"><Run Text="Москва, д. 11"/><Run Language="ru-ru" Text="6"/><Run Text="А"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="16" Margin="227,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"><Run Language="ru-ru" Text="Иванов Иван Иванович"/></TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="18" Margin="227,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"><Run Language="ru-ru" Text="Текущая неделя"/></TextBlock>
-        <Button Grid.Column="1" Content="29 мая, ср" HorizontalAlignment="Left" Height="17" Margin="227,50,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="30 мая, чт" HorizontalAlignment="Left" Height="17" Margin="298,50,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="31 мая, пт" HorizontalAlignment="Left" Height="17" Margin="368,50,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="1 июня, сб" HorizontalAlignment="Left" Height="17" Margin="439,50,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="2 июня, вс" HorizontalAlignment="Left" Height="17" Margin="510,50,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="3 июня, пн" HorizontalAlignment="Left" Height="17" Margin="582,50,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="4 июня, вт" HorizontalAlignment="Left" Height="17" Margin="653,50,0,0" VerticalAlignment="Top" Width="66"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="18" Margin="227,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114"><Run Language="ru-ru" Text="Следующая неделя"/></TextBlock>
-        <Button Grid.Column="1" Content="29 мая, ср" HorizontalAlignment="Left" Height="17" Margin="227,100,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="30 мая, чт" HorizontalAlignment="Left" Height="17" Margin="298,100,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="31 мая, пт" HorizontalAlignment="Center" Height="17" Margin="0,100,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="2 июня, вс" HorizontalAlignment="Left" Height="17" Margin="510,100,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="1 июня, сб" HorizontalAlignment="Left" Height="17" Margin="439,100,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="3 июня, пн" HorizontalAlignment="Left" Height="17" Margin="581,100,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="4 июня, вт" HorizontalAlignment="Left" Height="17" Margin="653,100,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="8:00" HorizontalAlignment="Left" Height="17" Margin="230,147,0,0" VerticalAlignment="Top" Width="66"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="18" Margin="230,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33"><Run Language="ru-ru" Text="Утро"/></TextBlock>
-        <Button Grid.Column="1" Content="8:10" HorizontalAlignment="Left" Height="17" Margin="301,147,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="8:30" HorizontalAlignment="Left" Height="17" Margin="443,147,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="8:40" HorizontalAlignment="Left" Height="17" Margin="514,147,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="8:50" HorizontalAlignment="Left" Height="17" Margin="584,147,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="9:00" HorizontalAlignment="Left" Height="17" Margin="655,147,0,0" VerticalAlignment="Top" Width="66"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="18" Margin="231,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33"><Run Language="ru-ru" Text="День"/></TextBlock>
-        <Button Grid.Column="1" Content="11:00" HorizontalAlignment="Left" Height="17" Margin="370,192,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="12:00" HorizontalAlignment="Left" Height="17" Margin="230,213,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="8:20" HorizontalAlignment="Left" Height="17" Margin="372,147,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="9:10" HorizontalAlignment="Left" Height="17" Margin="725,147,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="9:20" HorizontalAlignment="Left" Height="17" Margin="231,169,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="9:30" HorizontalAlignment="Left" Height="17" Margin="302,169,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="9:40" HorizontalAlignment="Left" Height="17" Margin="373,169,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="9:50" HorizontalAlignment="Left" Height="17" Margin="443,169,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="10:00" HorizontalAlignment="Left" Height="17" Margin="514,169,0,0" VerticalAlignment="Top" Width="64"/>
-        <Button Grid.Column="1" Content="10:10" HorizontalAlignment="Left" Height="17" Margin="583,169,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="10:20" HorizontalAlignment="Left" Height="17" Margin="654,169,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="10:30" HorizontalAlignment="Left" Height="17" Margin="725,169,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="10:40" HorizontalAlignment="Left" Height="17" Margin="230,191,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="10:50" HorizontalAlignment="Left" Height="17" Margin="302,191,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="11:10" HorizontalAlignment="Left" Height="17" Margin="441,192,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="11:20" HorizontalAlignment="Left" Height="17" Margin="512,192,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="11:30" HorizontalAlignment="Left" Height="17" Margin="583,192,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="11:40" HorizontalAlignment="Left" Height="17" Margin="654,192,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="11:50" HorizontalAlignment="Left" Height="17" Margin="725,192,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="12:00" HorizontalAlignment="Left" Height="17" Margin="229,256,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="12:10" HorizontalAlignment="Left" Height="17" Margin="300,256,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="12:20" HorizontalAlignment="Left" Height="17" Margin="371,256,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="12:30" HorizontalAlignment="Left" Height="17" Margin="442,256,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="12:40" HorizontalAlignment="Left" Height="17" Margin="513,256,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="12:50" HorizontalAlignment="Left" Height="17" Margin="583,256,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="13:00" HorizontalAlignment="Left" Height="17" Margin="654,256,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="13:10" HorizontalAlignment="Left" Height="17" Margin="725,256,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="13:20" HorizontalAlignment="Left" Height="17" Margin="229,278,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="13:30" HorizontalAlignment="Left" Height="17" Margin="301,278,0,0" VerticalAlignment="Top" Width="65"/>
-        <Button Grid.Column="1" Content="13:40" HorizontalAlignment="Left" Height="17" Margin="372,278,0,0" VerticalAlignment="Top" Width="65"/>
-        <Button Grid.Column="1" Content="13:50" HorizontalAlignment="Left" Height="17" Margin="442,278,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="16:00" HorizontalAlignment="Left" Height="17" Margin="513,278,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="16:10" HorizontalAlignment="Left" Height="17" Margin="583,278,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="16:20" HorizontalAlignment="Left" Height="17" Margin="654,278,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="16:30" HorizontalAlignment="Left" Height="17" Margin="725,278,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="16:40" HorizontalAlignment="Left" Height="17" Margin="229,300,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="16:50" HorizontalAlignment="Left" Height="17" Margin="301,300,0,0" VerticalAlignment="Top" Width="65"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="18" Margin="231,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="46"><Run Language="ru-ru" Text="Вечер"/></TextBlock>
-        <Button Grid.Column="1" Content="17:10" HorizontalAlignment="Left" Height="17" Margin="231,346,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="17:20" HorizontalAlignment="Left" Height="17" Margin="302,346,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="17:30" HorizontalAlignment="Left" Height="17" Margin="373,346,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="17:40" HorizontalAlignment="Left" Height="17" Margin="443,346,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="17:50" HorizontalAlignment="Left" Height="17" Margin="513,346,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="18:00" HorizontalAlignment="Left" Height="17" Margin="584,346,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="18:20" HorizontalAlignment="Left" Height="17" Margin="725,346,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="18:10" HorizontalAlignment="Left" Height="17" Margin="655,346,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="18:30" HorizontalAlignment="Left" Height="17" Margin="231,368,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="18:40" HorizontalAlignment="Left" Height="17" Margin="302,368,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="18:50" HorizontalAlignment="Left" Height="17" Margin="373,368,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="19:00" HorizontalAlignment="Left" Height="17" Margin="444,368,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="19:10" HorizontalAlignment="Left" Height="17" Margin="515,368,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="19:20" HorizontalAlignment="Left" Height="17" Margin="586,368,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="19:30" HorizontalAlignment="Left" Height="17" Margin="657,368,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="19:40" HorizontalAlignment="Left" Height="17" Margin="728,368,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Grid.Column="1" Content="19:50" HorizontalAlignment="Left" Height="17" Margin="231,390,0,0" VerticalAlignment="Top" Width="66"/>
-        <Button Content="Button" Grid.Column="1" Margin="10,412,586,11"/>
-        <Button Content="Button" Grid.Column="1" Margin="231,412,9,11"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="22" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196"><Run Language="ru-ru" Text="Профиль"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="33,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="96" Foreground="#696969"><Run Language="ru-ru" Text="Название полиса"/><LineBreak/><Run/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="260,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Foreground="#696969"><Run Language="ru-ru" Text="Дата рождения"/></TextBlock>
+        <Button Content="Сохранить изменения" Grid.Column="1" Margin="10,412,586,11" Background="SkyBlue"/>
+        <Button Content="Добавить новый аккаунт" Grid.Column="1" Margin="260,412,305,11" Background="SkyBlue"/>
+        <Button Content="Выйти из аккаунта" Grid.Column="1" Margin="544,412,22,11" Background="Red"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="433,27,0,0" TextWrapping="Wrap" Text="+7 999 999-99-99" VerticalAlignment="Top" Width="330"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="433,56,0,0" TextWrapping="Wrap" Text="example@example.com" VerticalAlignment="Top" Width="330"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="433,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" Text="г. Москва, Нахимовский пр. д. 21" />
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="433,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="303" Text="г. Москва, Нахимовский пр. д. 21" />
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="12,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" Foreground="#696969"><Run Language="ru-ru" Text="Тема приложения:"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="15" Margin="33,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="96"><Run Language="ru-ru" Text="Ирина"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="15" Margin="260,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="96"><Run Language="ru-ru" Text="01.01.2000"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="33,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="135" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Language="ru-ru" Text="7777 0000 0000 0000"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="219,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Language="ru-ru" Text="Ивановна Ирина Ивановна"/></TextBlock>
+        <ComboBox Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="12,207,0,0" VerticalAlignment="Top" Width="484">
+            <ComboBoxItem Content="Светлая"/>
+            <ComboBoxItem Content="Темная"/>
+        </ComboBox>
+        <Grid Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="10,270,0,0" VerticalAlignment="Top" Width="751" Background="#bbbbbb"/>
+        <Grid Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="10,327,0,0" VerticalAlignment="Top" Width="751" Background="#bbbbbb"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="13" Margin="22,279,0,0" TextWrapping="Wrap" Text="+7 495 539-30-00" VerticalAlignment="Top" Width="96" Foreground="Blue"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="13" Margin="22,336,0,0" TextWrapping="Wrap" Text="+7 495 051" VerticalAlignment="Top" Width="96" Foreground="Blue"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="532,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"><Run Language="ru-ru" Text="Единая служба записи, круглосуточно"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="337,327,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="414" TextAlignment="Right"><Run Text="Единая служба "/><Run Language="ru-ru" Text="психологической помощи, круглосуточно. Или позвоните по городскому на номер 051"/></TextBlock>
+
     </Grid>
 </Window>
